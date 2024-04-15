@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 10px 25px;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    box-shadow: 5px  5px 20px gray ;
+    background-color: rgb(221, 225, 92);
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 5px 2px 4px rgb(216, 112, 22);
+    font-family: sans-serif;
+    line-height: 42px;
+    cursor: pointer;
+}
+
+nav div ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+    line-height: 45px;
+}
+
+#mainMenu :hover{
+   color: white;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+#toggle{
+    /* position: absolute; */
+    margin: 200px auto;
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 20px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+@media screen and (max-width :767px ){
+    nav{
+        font-size: 1rem;
+    }
+}

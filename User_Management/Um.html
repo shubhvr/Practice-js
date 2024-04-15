@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UserManagement</title>
+    <link rel="stylesheet" href="Um.css" />
+  </head>
+
+  <body>
+    <div id="main">
+      <div id="User_form">
+        <form>
+          <input type="text" placeholder="Enter Your Id" />
+          <input type="text" placeholder="Enter Your Name" />
+          <input type="text" placeholder="Enter Your Age" />
+
+          <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="DisplayData">
+        <div id="showCase">
+          <button id="Close" onclick="closeShowCase()">Close</button>
+          <div id="showCaseData"></div>
+          <div id="BtnGrp">
+            <button id="UpdateBtn">Update</button>
+            <button id="DeleteBtn">Delete</button>
+          </div>
+        </div>
+        <div id="UserData">
+          <h2>User Details</h2>
+          <hr />
+
+          <div id="UserList">
+          </div>
+        </div>
+      </div>
+  </body>
+
+  <script src="./um.js"></script>
+</html>

@@ -1,0 +1,50 @@
+
+
+#heading {
+    font-size: 56px;
+    font-family: sans-serif;
+    background-color: black;
+    color: aquamarine;
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-underline-offset: 1px;
+
+}
+
+#para {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paraclass {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    background-color: black;
+    color: red;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#MyBox {
+    height: 600px;
+    width: 100%;
+}

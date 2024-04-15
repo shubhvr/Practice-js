@@ -1,0 +1,103 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border-style: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #ffff;
+}
+
+.SideBar {
+    background-color: rgb(13, 114, 222);
+    color: #ffff;
+    width: 300px;
+    position: fixed;
+    border-radius: 10px;
+    margin: 20px 0 20px 20px;
+    box-sizing: initial;
+    transition: 0.5s;
+    height: 100vh;
+}
+
+#menuToggle {
+    padding: 15px 0 15px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+#menuToggle:hover {
+    background-color: #ffff;
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+    margin-left: 10px;
+}
+
+
+
+.main_menu {
+    padding: 20px 20px 20px 20px;
+}
+
+
+.main_menu ul {
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.main_menu ul li {
+    padding: 15px 0 15px 10px;
+    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.list {
+    margin-left: 10px;
+}
+
+.main_menu ul :hover {
+    background-color: #ffff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.menu-item {
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    padding: 15px 0px 15px 0px;
+    font-weight: 600;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.active {
+    background-color: #ffff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    color: black;
+    margin-left: 10px;
+}

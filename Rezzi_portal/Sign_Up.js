@@ -53,7 +53,7 @@ signUpForm.addEventListener("submit", (e) => {
             for (let i = 0; i <= userDetails.password.length; i++) {
                 let char = passwordArr[i];
 
-                if (char >= "a" && char <= "z") {
+                if (char >= "a" && char <= 'z') {
                     alert("sssssss")
                 }
                 else {
